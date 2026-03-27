@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel'
 import Image from 'react-bootstrap/Image'
+import mojicones from '../assets/mogollas_mojicones.jpg'
 
 const Carrusel = () => {
   const anchura = '200px';
@@ -8,25 +9,34 @@ const Carrusel = () => {
     <div>
       <Carousel>
       <Carousel.Item>
-        <Image text="First slide" />
+        <Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVUDZNZTLtrfQv3WlTxMz-MGLMELXxoFmgyA&s' 
+        width={anchura} height={altura}
+        text="First slide" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Bebidas Calientes</h3>
+          <p>Cafés, tintos, chocolates, aromáticas, té</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image text="Second slide" />
+        <Image
+        src={mojicones}
+        width={anchura} height={altura} text="Second slide" />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Panes</h3>
+          <p>Hojaldrados, rollos, franceses, baguette</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <Image text="Third slide" />
+        <Image
+        src='https://www.mycolombianrecipes.com/wp-content/uploads/2012/10/caldo-de-costilla-colombiano.jpg'
+        text="Third slide" 
+        width={anchura}
+        height={altura}/>
+        
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Desayunos</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Caldo de costilla, omelettes, changüas, tamales.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
