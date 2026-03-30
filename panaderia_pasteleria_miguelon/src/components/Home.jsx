@@ -5,12 +5,16 @@ import Tarjeta from './Tarjeta'
 const Home = () => {
   return (
     <div>
-          <Header/>
-      <h1>Panadería y Pastelería Miguelón</h1>
+      <Header/>
+      <aside>
+         <h1>Panadería y Pastelería Miguelón</h1>
       <h3>Salón de Onces</h3>
-      
-      <Tarjeta/>
+       <Tarjeta/>
       <Carrusel/>
+      </aside>
+     
+      
+     
       <Footer/>
     </div>
   )
