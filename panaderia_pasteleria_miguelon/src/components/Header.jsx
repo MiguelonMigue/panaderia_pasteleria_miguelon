@@ -8,9 +8,9 @@ const Header = () => {
 
    
     <nav className='navegacion'>
-      <Link to="/">Inicio</Link>
-      <Link to="/about">Acerca de nosotros</Link>
-      <Link to="/contact">Contáctenos</Link>
+      <Link to="/" className='link'>Inicio</Link>
+      <Link to="/about" className='link'>Acerca de nosotros</Link>
+      <Link to="/contact" className='link'>Contáctenos</Link>
     </nav>
 
     

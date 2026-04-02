@@ -21,8 +21,8 @@ const Carrusel = () => {
             style={estiloImagen}
           />
           <Carousel.Caption>
-            <h3 style={{ backgroundColor: 'rgba(0,0,0,0.5)' }}>Bebidas Calientes</h3>
-            <p style={{ backgroundColor: 'rgba(0,0,0,0.5)' }}>Cafés, tintos, chocolates, aromáticas, té</p>
+            <h3 style={{ backgroundColor: '#00224D', color: '#FF204E' }}>Bebidas Calientes</h3>
+            <p style={{ backgroundColor: '#00224D', color: '#FF204E' }}>Cafés, tintos, chocolates, aromáticas, té</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -34,8 +34,8 @@ const Carrusel = () => {
             style={estiloImagen}
           />
           <Carousel.Caption>
-            <h3 style={{ backgroundColor: 'rgba(0,0,0,0.5)' }}>Panes</h3>
-            <p style={{ backgroundColor: 'rgba(0,0,0,0.5)' }}>Hojaldrados, rollos, franceses, baguette</p>
+            <h3 style={{ backgroundColor: '#00224D', color: '#FF204E' }}>Panes</h3>
+            <p style={{ backgroundColor: '#00224D', color: '#FF204E' }}>Hojaldrados, rollos, franceses, baguette</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -47,8 +47,8 @@ const Carrusel = () => {
             style={estiloImagen}
           />
           <Carousel.Caption>
-            <h3 style={{ backgroundColor: 'rgba(0,0,0,0.5)' }}>Desayunos</h3>
-            <p style={{ backgroundColor: 'rgba(0,0,0,0.5)' }}>Caldo de costilla, omelettes, changüas, tamales.</p>
+            <h3 style={{ backgroundColor: '#00224D', color: '#FF204E' }}>Desayunos</h3>
+            <p style={{ backgroundColor: '#00224D' , color: '#FF204E'}}>Caldo de costilla, omelettes, changüas, tamales.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

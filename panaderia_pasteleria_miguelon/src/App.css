@@ -3,10 +3,52 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
+
+
+
+
 
 .navegacion{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-color: #FF204E;
+  padding: 1em;
+  
+
+}
+
+.link{
+  text-decoration: none;
+  color: #00224D;
+}
+
+.footer{
+  background-color: #FF204E;
+  padding: 1em;
+  text-align: center;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.titulo_principal{
+  text-align: center;
+  color: #FF204E;
+  padding: 2rem;
+}
+
+.subtitulo{
+  padding: 1em;
+  background-color: #A0153E;
+}
+
+.texto{
+  padding: 2rem;
+  background-color: #5D0D41;
 }

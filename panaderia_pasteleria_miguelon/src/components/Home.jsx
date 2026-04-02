@@ -7,8 +7,8 @@ const Home = () => {
     <div>
       <Header/>
       <aside>
-         <h1>Panadería y Pastelería Miguelón</h1>
-      <h3>Salón de Onces</h3>
+         <h1 className='titulo_principal'>Panadería y Pastelería Miguelón</h1>
+     
        <Tarjeta/>
       <Carrusel/>
       </aside>

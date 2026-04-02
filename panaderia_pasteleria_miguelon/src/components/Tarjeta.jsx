@@ -34,8 +34,8 @@ const Tarjeta = () => {
             <Card.Body>
               {/* Cambiamos Card.Title a un <h3> normal o Card.Subtitle si quieres, 
                   para que no sea tan grande, y ponemos el texto largo en un Card.Text */}
-              <Card.Title>Salón de onces</Card.Title>
-              <Card.Text>
+              <Card.Title className='subtitulo'>Salón de onces</Card.Title>
+              <Card.Text className='texto'>
                 Un rincón acogedor donde puedes disfrutar de deliciosos desayunos, 
                 almuerzos tradicionales y las mejores onces bogotanas con tu familia y amigos.
               </Card.Text>
