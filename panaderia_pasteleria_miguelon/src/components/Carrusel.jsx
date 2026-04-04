@@ -22,7 +22,7 @@ const Carrusel = () => {
           />
           <Carousel.Caption>
             <h3 style={{ backgroundColor: '#00224D', color: '#FF204E' }}>Bebidas Calientes</h3>
-            <p style={{ backgroundColor: '#00224D', color: '#FF204E' }}>Cafés, tintos, chocolates, aromáticas, té</p>
+            <p style={{ backgroundColor: '#00224D', color: 'white' }}>Cafés, tintos, chocolates, aromáticas, té</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -35,7 +35,7 @@ const Carrusel = () => {
           />
           <Carousel.Caption>
             <h3 style={{ backgroundColor: '#00224D', color: '#FF204E' }}>Panes</h3>
-            <p style={{ backgroundColor: '#00224D', color: '#FF204E' }}>Hojaldrados, rollos, franceses, baguette</p>
+            <p style={{ backgroundColor: '#00224D', color: 'white' }}>Hojaldrados, rollos, franceses, baguette</p>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -48,7 +48,7 @@ const Carrusel = () => {
           />
           <Carousel.Caption>
             <h3 style={{ backgroundColor: '#00224D', color: '#FF204E' }}>Desayunos</h3>
-            <p style={{ backgroundColor: '#00224D' , color: '#FF204E'}}>Caldo de costilla, omelettes, changüas, tamales.</p>
+            <p style={{ backgroundColor: '#00224D' , color: 'white'}}>Caldo de costilla, omelettes, changüas, tamales.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
