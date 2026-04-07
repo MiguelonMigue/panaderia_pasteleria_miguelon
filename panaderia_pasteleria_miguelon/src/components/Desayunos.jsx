@@ -1,7 +1,7 @@
-import React from 'react'
+
 
 const Desayunos = () => {
-    const menu =[
+    const platos =[
         { id: 1, 
             nombre: "Caldo de costilla", 
             img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbNGQF3fcKgX69BKhUnJ3HHEMdPOJr7WzHzw&s",
@@ -30,12 +30,22 @@ const Desayunos = () => {
             {
                 id: 5,
                 nombre: "Happy day ranchero",
-                img: ""
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJqmcWuZKF155rOi_bMuACaGbddoCi1O4FeA&s",
+                precio: "$19000",
+                descripcion: "Huevos rancheros con 2 panes y bebida caliente"
             }
     ]
-  return (
-    <div>
-      
+    return (
+        <div>
+        {platos.map((plato)=>{
+        return(
+        <div key={plato.nombre}>
+         <h1>{plato.nombre}</h1>
+         <img src={plato.img} alt="" width='100vw' height='100vh'/>
+        <p>Precio: {plato.precio}</p>
+        <p>{plato.descripcion}</p>
+        </div>)
+    })}
     </div>
   )
 }

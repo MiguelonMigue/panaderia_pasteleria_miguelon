@@ -2,8 +2,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Carrusel from './Carrusel'
 import Tarjeta from './Tarjeta'
-import Impostor from './Impostor'
-
+import Desayunos from './Desayunos'
 
 const Home = () => {
   const nombre = 'Miguelón'
@@ -11,16 +10,13 @@ const Home = () => {
   return (
     <div>
       <Header/>
-      <aside>
+    
          <h1 className='titulo_principal'>{titulo_principal} {nombre}</h1>
      
        <Tarjeta/>
       <Carrusel/>
-      </aside>
-     <Impostor/>
-      
-     
-      <Footer/>
+      <Desayunos/>
+       <Footer/>
     </div>
   )
 }
