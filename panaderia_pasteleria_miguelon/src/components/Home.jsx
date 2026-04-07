@@ -3,6 +3,8 @@ import Footer from './Footer'
 import Carrusel from './Carrusel'
 import Tarjeta from './Tarjeta'
 import Impostor from './Impostor'
+
+
 const Home = () => {
   const nombre = 'Miguelón'
   const titulo_principal = "Panadería y Pastelería"
