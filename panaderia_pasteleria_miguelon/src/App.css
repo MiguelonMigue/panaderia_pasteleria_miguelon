@@ -52,3 +52,13 @@
   padding: 2rem;
   background-color: #5D0D41;
 }
+
+input, .botonEnviar{
+  width: 50%;
+  border-radius: 30px;
+}
+
+.botonEnviar{
+margin: 10px;
+width: 25%
+}
