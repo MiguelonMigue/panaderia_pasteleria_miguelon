@@ -1,4 +1,6 @@
-
+import Header from "./Header"
+import Footer from "./Footer"
+import Carrusel from "./Carrusel"
 
 const Desayunos = () => {
     const platos =[
@@ -37,6 +39,8 @@ const Desayunos = () => {
     ]
     return (
         <div>
+            <Header/>
+
         {platos.map((plato)=>{
         return(
         <div key={plato.nombre}>
@@ -46,6 +50,8 @@ const Desayunos = () => {
         <p>{plato.descripcion}</p>
         </div>)
     })}
+    <Carrusel/>
+    <Footer/>
     </div>
   )
 }

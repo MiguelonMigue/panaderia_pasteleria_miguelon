@@ -15,7 +15,6 @@ const Home = () => {
      
        <Tarjeta/>
       <Carrusel/>
-      <Desayunos/>
        <Footer/>
     </div>
   )

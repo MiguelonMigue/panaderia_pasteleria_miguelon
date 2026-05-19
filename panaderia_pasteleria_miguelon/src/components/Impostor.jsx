@@ -4,7 +4,7 @@ const Impostor = () => {
     const tripulantes = [
         { nombre: "Laura Gamboa ", esImpostor: true},
         { nombre: " Gloria Enciso ", esImpostor: false},
-        { nombre: " Hellen Carvajal ", esImpostor: true},
+        { nombre: " Hellen Carvajal ", esImpostor: false},
         { nombre: " Cecilia de Pinilla ", esImpostor: false},
         { nombre: " Diana Erazo ", esImpostor: true},
         {nombre: " Adriana Gómez ", esImpostor: false},
