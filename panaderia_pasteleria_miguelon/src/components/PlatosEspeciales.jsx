@@ -6,6 +6,7 @@ const PlatosEspeciales = () => {
   return (
     <div>
     <Header/>
+    <h1>Platos especiales</h1>
     <Carrusel/>
     <Footer/>
     </div>
