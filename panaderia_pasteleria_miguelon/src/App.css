@@ -62,3 +62,15 @@ input, .botonEnviar{
 margin: 10px;
 width: 25%
 }
+
+.galeria{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 3px solid #B0E4CC;
+
+}
+.foto{
+  border: 3px solid #B0E4CC;
+  border-radius: 10px;
+  margin: 20px;
+}
