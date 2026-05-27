@@ -1,6 +1,14 @@
 import Header from "./Header"
 import Footer from "./Footer"
 import Carrusel from "./Carrusel"
+import corazon from '../assets/corazon.png'
+import mariposa from '../assets/mariposa.png'
+import galletaRed from '../assets/galletaRedVelvet.png'
+import puntoRojo from '../assets/puntoRojo.png'
+import avena from '../assets/avena.png'
+import payasito from '../assets/payasito.png'
+import galletaChocolate from '../assets/galleta_choco.png'
+import chips from '../assets/chips.png'
 
 const Galleteria = () => {
   const galletas = [{
