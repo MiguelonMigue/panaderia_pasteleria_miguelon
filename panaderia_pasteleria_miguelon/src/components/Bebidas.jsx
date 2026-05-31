@@ -213,7 +213,7 @@ const Bebidas = () => {
         <div key={bebida.id} className="foto">
           <h2>{bebida.nombre}</h2>
           <p>${bebida.precio}</p>
-          <img src={bebida.img} alt="" width='400px' height='300px' />
+          <img src={bebida.img} alt="" width='300px' height='300px' />
         </div>
       ))}
       </div>
