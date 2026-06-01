@@ -49,7 +49,27 @@ const PlatosEspeciales = () => {
     nombre: 'Combo de hamburguesa de la casa',
     precio: '40k',
     img: 'https://tofuu.getjusto.com/orioneat-local/resized2/bLMrsbZwrMP26GNXK-300-x.webp'
-  }]
+  },{
+    id: 10,
+    nombre: 'Alitas de pollo en BBQ',
+    precio: '23k',
+    img: 'https://es.cravingsjournal.com/wp-content/uploads/2019/11/alitas-bbq-6-500x500.jpg'
+    },{
+      id: 12,
+      nombre: 'Crepe de pollo',
+      precio: '25k',
+      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF8G0lx_9ldat_zaXXJ29avJDhQH5RkNcdww&s'
+    },{
+      id: 13,
+      nombre: 'Crepe de frutos del mar',
+      precio: '45k',
+      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuqTy_7xZc-IOHpP4XMgf-47seV0FRJ3tvUw&s'
+    },{
+      id: 14,
+      nombre: 'Crepe de lomo árabe',
+      precio: '35k',
+      img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqBJm3fcL_3C2y9KRNZZOfH5A7frPtfRsI3w&s'
+    }]
   return (
     <div>
     <Header/>
