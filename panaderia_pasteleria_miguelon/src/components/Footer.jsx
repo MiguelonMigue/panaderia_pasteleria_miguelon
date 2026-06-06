@@ -1,6 +1,6 @@
 import { FaFacebook, FaInstagram, FaDiscord, FaGithub } from 'react-icons/fa'
 
-const Footer = () => {
+ const Footer = () => {
   return (
     <div className="footer">
       <h6>Todos los derechos reservados &copy;</h6>
@@ -15,5 +15,6 @@ const Footer = () => {
     </div>
   )
 }
+
 
 export default Footer
