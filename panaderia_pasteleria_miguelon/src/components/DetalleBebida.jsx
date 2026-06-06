@@ -1,7 +1,8 @@
-
+import { Link } from "react-router-dom"
 import Header from "./Header"
 import Footer from "./Footer"
 import { useLocation } from "react-router-dom"
+import Button from 'react-bootstrap/Button'
 const DetalleBebida = () => {
     const location = useLocation();
     const bebida = location.state?.b;
@@ -10,7 +11,7 @@ const DetalleBebida = () => {
     <div>
         <Header/>
       <h2>Bebida no encontrada</h2>
-
+        <Link to="/bebidasCalientes" className="button">Volver al menu</Link>
       <Footer/>
     </div>
   )} 
@@ -20,6 +21,7 @@ const DetalleBebida = () => {
     <h1>{bebida.nombre}</h1>
     <img src={bebida.img} width='180px' height='209px' alt="" />
     <p>${bebida.precio}</p>
+  <Button><Link to="/bebidasCalientes" className="button">Volver al menu</Link></Button>
     </>
   )
 }
