@@ -1,5 +1,6 @@
 import Carrusel from "./Carrusel"
 import Header from './Header'
+import { Link } from "react-router-dom"
 import Footer from './Footer'
 import Americano from '../assets/americano.jpeg'
 import LattePeq from '../assets/latte_pequeno.jpeg'
@@ -211,7 +212,7 @@ const Bebidas = () => {
         <div className="galeria">
       {bebidasCalientes.map((bebida)=>(
         <div key={bebida.id} className="foto">
-          <h2>{bebida.nombre}</h2>
+          <Link to={`${bebida.id}`} state={{b: bebida}}>{bebida.nombre}</Link>
           <p>${bebida.precio}</p>
           <img src={bebida.img} alt="" width='300px' height='300px' />
         </div>

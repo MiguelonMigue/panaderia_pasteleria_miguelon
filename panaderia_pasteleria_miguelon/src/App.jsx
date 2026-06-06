@@ -12,6 +12,7 @@ import PlatosEspeciales from './components/PlatosEspeciales.jsx'
 import Panes from './components/Panes.jsx'
 import Galleteria from './components/Galleteria.jsx'
 import Postres from './components/Postres.jsx'
+import DetalleBebida from './components/DetalleBebida.jsx'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       <Route path='/panes' element={<Panes/>}/>
       <Route path='/postres' element={<Postres/>}/>
       <Route path='/galleteria' element={<Galleteria/>}/>
+      <Route path='/bebidasCalientes/:id' element={<DetalleBebida/>}/>
 
     </Routes>
     </>
