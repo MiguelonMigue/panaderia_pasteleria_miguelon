@@ -2,7 +2,7 @@ import Header from "./Header"
 import Footer from "./Footer"
 import Carrusel from "./Carrusel"
 
-const Desayunos = () => {
+const Alimentos = () => {
     const platos =[
         { id: 1, 
             nombre: "Caldo de costilla", 
@@ -56,4 +56,4 @@ const Desayunos = () => {
   )
 }
 
-export default Desayunos
+export default Alimentos
