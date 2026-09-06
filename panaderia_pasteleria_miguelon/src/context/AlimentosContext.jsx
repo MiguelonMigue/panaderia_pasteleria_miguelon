@@ -1,14 +1,16 @@
 import { useContext, createContext, useEffect, useState } from "react";
 
-import React from 'react'
+export const AlimentosContext = createContext();
 
-const AlimentosContext = ({children}) => {
+export const AlimentosProvider = ({children}) => {
     const [alimentos, setAlimentos] = useState([]);
+    const [loading, setLoading] = useState(true);
     useEffect(()=>{
         fetch("http://localhost:3000/alimentos")
         .then(response=>response.json())
         .then(data=>{
             setAlimentos(data);
+            setLoading(false);
         })
         .catch(error=>{
             console.error("Error al obtener los alimentos: ", error);
@@ -16,12 +18,10 @@ const AlimentosContext = ({children}) => {
         })
     },[]);
   return (
-    <AlimentosContext.Provider value={{alimentos}}>
+    <AlimentosContext.Provider value={{alimentos, loading}}>
       {children}
     </AlimentosContext.Provider>
   )
 }
 
-export default AlimentosContext = ()=>{
-    return useContext(AlimentosContext);
-}
+

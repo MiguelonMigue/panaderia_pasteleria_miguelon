@@ -4,6 +4,7 @@ import Carrusel from './Carrusel'
 import Tarjeta from './Tarjeta'
 import MemoShowValue from './MemoShowValue'
 import { useMemo, useState } from 'react'
+import Alimentos from './Alimentos'
 
 
 
@@ -44,7 +45,7 @@ const Home = () => {
          <h1 className='titulo_principal'>{titulo_principal} {nombre}</h1>
      
        <Tarjeta/>
-      <Carrusel/>
+      <Alimentos/>
        <Footer/>
     </div>
   )

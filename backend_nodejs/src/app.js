@@ -8,7 +8,7 @@ const alimentosRouter = require('./routes/alimentos.routes');
 app.use(cors());
 app.use(alimentosRouter);
 app.listen(PORT, ()=>{
-    console.log(`Servidor ejecutando en http://localhost:${PORT}`);
+    console.log(`Servidor ejecutando en http://localhost:${PORT}/alimentos`);
     
 })
 

@@ -9,11 +9,13 @@ import Login from './components/Login.jsx'
 import Alimentos from './components/Alimentos.jsx'
 
 
+
 function App() {
 
 
   return (
-    <>
+    
+   
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
@@ -24,7 +26,8 @@ function App() {
       
 
     </Routes>
-    </>
+   
+    
   )
 }
 
