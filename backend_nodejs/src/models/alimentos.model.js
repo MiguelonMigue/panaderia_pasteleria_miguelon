@@ -1,7 +1,11 @@
 const mongoose = require('mongoose');
 
 const alimentoSchema = new mongoose.Schema({
-  id: Number,
+  id: {
+  type: Number,
+  required: true,
+  unique: true
+  },
   nombre: String,
   img: String,
   descripcion: String

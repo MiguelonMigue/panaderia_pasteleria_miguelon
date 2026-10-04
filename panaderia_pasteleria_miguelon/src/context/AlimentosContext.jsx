@@ -6,7 +6,7 @@ export const AlimentosProvider = ({children}) => {
     const [alimentos, setAlimentos] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(()=>{
-        fetch("http://localhost:3000/alimentos")
+        fetch("http://localhost:5000/api/alimentos")
         .then(response=>response.json())
         .then(data=>{
             setAlimentos(data);
